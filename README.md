@@ -15,10 +15,15 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
+
+## Sector Overview & Market Dynamics
+
+The Enterprise Application Integration (EAI) and Integration Platform as a Service (iPaaS) market is valued at approximately **$14.5B to $23B+** (with pure-play cloud iPaaS accounting for ~$8.5B–$10B) and is projected to expand past **$33B to $55B+ by 2030** at an 11%–20% CAGR. The sector is **moderately concentrated at the high-end enterprise tier**—dominated by mega-cap suites and established giants like Oracle, SAP, MuleSoft (Salesforce), IBM, and Informatica—yet **highly fragmented across mid-market, SME, and specialized workflow automation niches** where hundreds of agile iPaaS and open-source runtimes thrive alongside persistent SaaS proliferation.
 
 ## SaaS/Hosted Platforms
 
