@@ -1,34 +1,59 @@
-# Awesome-Enterprise-Application-Integration-Framework
+<div align="center">
 
-## Top Enterprise Application Integration Framework Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Enterprise Application Integration Framework Banner" width="100%" />
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Enterprise Integration Patterns, Low-Code iPaaS & Self-Hosted Runtimes*  
-**Last updated: March 2026**
+# ⚡ Awesome Enterprise Application Integration Framework
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Application Integration Frameworks**. These tools help organizations connect disparate systems—ERPs, CRMs, databases, and SaaS apps—covering everything from commercial low-code platforms to open-source frameworks that implement Enterprise Integration Patterns (EIP) in code.
+**Curated Ecosystem of Modern iPaaS Platforms & Open-Source EIP Runtimes**  
+*Focused on Enterprise Integration Patterns (EIP), Cloud iPaaS, Event-Driven Architecture & Workflow Automation*  
 
-**Examples** include MuleSoft Anypoint, Workato, Boomi, Informatica, SAP Integration Suite, Oracle Integration Cloud, Apache Camel, Spring Integration, and WSO2 Integrator (the category leaders).
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Enterprise-Application-Integration-Framework/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Enterprise-Application-Integration-Framework/graphs/commit-activity)
+[![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow)](https://github.com/ishandutta2007)
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted integration runtimes, open-source EIP frameworks, and community-driven connectivity—ideal for Java and polyglot teams seeking to avoid per-core or per-flow commercial licensing. The open-source landscape is genuinely mature: **Apache Camel** is the reference implementation of Enterprise Integration Patterns with ~300 components [citation:6], **Spring Integration** brings EIP into the Spring ecosystem [citation:6], and **WSO2 Integrator** offers a low-code visual designer on top of an open-source core .
+</div>
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 📖 Overview
 
-## Sector Overview & Market Dynamics
+**Enterprise Application Integration (EAI)** and **Integration Platform as a Service (iPaaS)** frameworks empower modern engineering teams to seamlessly connect disparate software systems—such as ERPs, CRMs, relational/NoSQL databases, SaaS applications, and autonomous AI agents. 
 
-The Enterprise Application Integration (EAI) and Integration Platform as a Service (iPaaS) market is valued at approximately **$14.5B to $23B+** (with pure-play cloud iPaaS accounting for ~$8.5B–$10B) and is projected to expand past **$33B to $55B+ by 2030** at an 11%–20% CAGR. The sector is **moderately concentrated at the high-end enterprise tier**—dominated by mega-cap suites and established giants like Oracle, SAP, MuleSoft (Salesforce), IBM, and Informatica—yet **highly fragmented across mid-market, SME, and specialized workflow automation niches** where hundreds of agile iPaaS and open-source runtimes thrive alongside persistent SaaS proliferation.
+Whether you need a commercial low-code iPaaS suite with managed runtime hosting or an open-source framework implementing **Enterprise Integration Patterns (EIP)** in code, this community-driven directory curates the most impactful tools, detailed starting prices, free tier quotas, and GitHub star trajectories.
 
-## SaaS/Hosted Platforms
+---
 
-| Product | Company Scale (Revenue / Valuation) | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------------------------------|-------------|-------------------|--------------------------|
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted iPaaS Platforms](#️-saas--hosted-ipaas-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 Architectural Guidance & Decision Framework](#-architectural-guidance--decision-framework)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **Enterprise Application Integration (EAI)** and **Integration Platform as a Service (iPaaS)** market is currently valued between **$14.5B and $23B+** (with cloud-native iPaaS representing ~$8.5B–$10B of that total) and is on pace to exceed **$33B to $55B+ by 2030** with an estimated CAGR between 11% and 20%. 
+
+The industry demonstrates a barbell market structure:
+- **Consolidated Enterprise Top Tier**: Mega-cap software suites and established market leaders (Oracle, SAP, Salesforce/MuleSoft, IBM, and Informatica) dominate multi-million-dollar Global 2000 contracts through bundled ERP/CRM ecosystems and strict enterprise SLAs.
+- **Dynamic Fragmented Long-Tail**: Driven by SaaS proliferation and microservices adoption, hundreds of agile iPaaS vendors and open-source runtimes thrive by catering to mid-market teams, specialized API transformation, asynchronous event-driven pipelines, and developer-first workflows.
+
+---
+
+## ☁️ SaaS / Hosted iPaaS Platforms
+
+The following commercial and hybrid platforms offer hosted execution engines, enterprise-grade governance, and visual drag-and-drop workflow builders. The table below details entry pricing and transparent free tier limits, sorted in descending order by **Company Scale (Revenue / Valuation)**:
+
+| 🚀 Product | 🏢 Company Scale (Revenue / Valuation) | 📝 Description | 💳 Pricing (Starting) | 🎁 Free Tier / Trial Limits |
+|:---|:---|:---|:---|:---|
 | **[Oracle Integration Cloud](https://www.oracle.com/)** | **~$67B+ Revenue** / **~$385B Market Cap** (Oracle) | Enterprise iPaaS with prebuilt adapters for Oracle and third-party applications. Process automation and API management included. | Standard Edition starts at **$0.6452/hour** per message pack (~**$480/month** PAYG; ~**$240/month** BYOL) | **30-day free trial** with **$300 cloud credits** via Oracle Cloud Free Tier |
 | **[SAP Integration Suite](https://www.sap.com/)** | **~$45B+ Revenue** / **~$260B Market Cap** (SAP) | Enterprise integration within the SAP ecosystem. Covers process integration, API management, and event mesh for SAP and non-SAP systems. | Basic Edition starts at **£680/month** (~**$860/month** per tenant); Standard Edition from **£3,650/month** (~**$4,600/month**) | **Free Tier**: BTP Free Tier plan with monthly quotas (no expiration, production-upgradeable); **30-day trial** on shared test tenant |
 | **[MuleSoft Anypoint](https://www.mulesoft.com/)** | **~$41B+ Revenue** / **~$190B Market Cap** (Salesforce parent; acquired for **$6.5B**) | Enterprise integration and API platform (Salesforce). Bundles runtime, designer (Anypoint Studio), DataWeave transformation, and API management. | MuleSoft Starter packages start at **$2,000/month** (billed annually at **$24,000/year**) | **30-day free trial** of Anypoint Platform (full API designer, runtime manager, and exchange access) |
@@ -39,42 +64,84 @@ The Enterprise Application Integration (EAI) and Integration Platform as a Servi
 | **[Celigo](https://www.celigo.com/)** | **~$100M+ Revenue** / **~$500M+ Valuation** (Private / Insight Partners) | iPaaS with strong NetSuite and ERP focus. Starter integrations priced on active flows and endpoints. | Starter tier starts at **$500/month** (billed annually, ~$6,000/year; median contracts ~$14,787/year) | **Free plan**: 1 active flow between 2 endpoints (no expiration, no SSO); **30-day free trial** with unlimited flows |
 | **[Jitterbit](https://www.jitterbit.com/)** | **~$80M–$100M Revenue** / **~$300M+ Valuation** (Private / Partners Group) | Enterprise iPaaS with Harmony low-code integration, API manager, and pre-built workflow templates. | Standard Tier annual contract starts at **$1,250/month** (billed annually at **$15,000/year**) | **30-day free trial** of Jitterbit Harmony upon registration/request approval |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Apache Camel](https://github.com/apache/camel)** | [![Stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers) | **The most widely used open-source integration framework and reference implementation of Enterprise Integration Patterns.** Apache-2.0, Java/JVM. **~300 components** covering databases, messaging (Kafka, JMS, AMQP), cloud services, SaaS apps (Slack, Jira, Salesforce), and file/SFTP [citation:6]. Routes written in **Java, YAML, or XML DSL**; visual editor via Kaoto. Runs standalone, embedded in Spring Boot/Quarkus, or as native image. **Largest community in the category** (9,000+ Stack Overflow questions) [citation:6]. **Trade-offs**: no bundled API management, hosting, or commercial support—you run and operate it yourself [citation:3]. **Best for Java teams wanting the widest connectivity and pattern coverage without per-core licensing.** |
-| **[Spring Integration](https://github.com/spring-projects/spring-integration)** | [![Stars](https://img.shields.io/github/stars/spring-projects/spring-integration?style=social&color=white)](https://github.com/spring-projects/spring-integration/stargazers) | **Enterprise Integration Patterns inside the Spring ecosystem.** Apache-2.0, Java. Lightweight messaging framework that extends Spring's programming model with EIP components—channels, routers, transformers, and adapters. **Best when integrations live inside Spring Boot applications** and you want to stay within the Spring programming model [citation:3][citation:6]. **Trade-offs**: a library, not a product—no visual designer, no platform, no managed hosting [citation:3]. **Best for Spring-centric teams** embedding integration logic directly into their applications. |
-| **[WSO2 Integrator](https://github.com/wso2/product-integrator)** | [![Stars](https://img.shields.io/github/stars/wso2/product-integrator?style=social&color=white)](https://github.com/wso2/product-integrator/stargazers) | **Open-source integration product with a visual designer and management console.** Apache-2.0 core; commercial support via subscription. **Micro Integrator** built on Apache Synapse, plus a **low-code profile on Ballerina** and streaming capabilities . **~600 connectors**, visual VS Code designer, and MCP server generation from APIs [citation:8]. **Trade-offs**: JVM runtime with ~4–5 second startup and ~1 GB memory per container; API management is a **separate product** (WSO2 API Manager) . **Best for teams wanting an open-source product with a designer** and optional commercial support. |
-| **[Apache NiFi](https://github.com/apache/nifi)** | [![Stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers) | **Open-source data flow automation with a graphical interface.** Apache-2.0, Java. Visual processor-based design for routing, transforming, and mediating data between systems. Extensible processor library and provenance tracking for data lineage. **Best for real-time data flow automation** where a visual interface and data provenance matter more than code-first EIP patterns [citation:12][citation:14]. **Trade-offs**: not a traditional EIP framework—more focused on data movement and transformation than message routing patterns. |
-| **[Cameleer](https://github.com/pmsudhi/cameleer)** | [![Stars](https://img.shields.io/github/stars/pmsudhi/cameleer?style=social&color=white)](https://github.com/pmsudhi/cameleer/stargazers) | **Apache Camel's routes rewritten as a single native Rust binary.** Apache-2.0. Runs Camel's YAML and XML DSLs unchanged, with **~230 components**. **Dramatically lighter than JVM Camel**: **2.5 ms startup and 7 MB peak memory** vs. 1.1 s and 399 MB on the JVM [citation:3]. **Built-in MCP server** with schema checks, run-once, approvals, and audit for AI agent tools. **Trade-offs**: fewer components than Camel (no Salesforce component, for example); newer project with smaller community . **Best for serverless, edge, sidecar, and AI-agent integration scenarios** where JVM overhead is prohibitive. |
+## 🔓 Open-Source GitHub Projects
 
-### Additional Strong Open-Source Options
+Open-source frameworks allow engineering teams to avoid steep per-core or per-flow software licensing while gaining full control over their deployment topology, compliance boundaries, and data paths. 
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Frank!Framework](https://github.com/frankframework/frankframework)** | — | **Stateless Java integration framework** for transactional message exchange between systems. Listed on GitHub's integration-framework topic. **Best for teams wanting a lightweight, stateless alternative** to stateful ESB patterns [citation:13]. |
-| **[Kaoto](https://github.com/KaotoIO/kaoto)** | — | **Visual editor for Apache Camel routes.** Low-code design surface that generates Camel YAML/XML. **Best for teams wanting a visual designer on top of Camel** without adopting a full commercial platform . |
-| **[Apache Kafka Connect](https://github.com/apache/kafka)** | — | **Framework for streaming data between Kafka and external systems** via source and sink connectors. **Not a general EIP framework**—focused on Kafka-centric data pipelines. **Best for event-driven integration** where Kafka is the central hub [citation:14]. |
+All repositories below include a live stargazers social badge and are **sorted in descending order by GitHub star count**:
 
-**Frameworks for building custom systems**: Choose **Apache Camel** for the widest component coverage and proven EIP patterns in Java , **Spring Integration** for integration logic embedded inside Spring Boot applications , or **Cameleer** for Camel routes as a lightweight native binary with built-in AI-agent safety —all without per-core or per-flow commercial licensing.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Enterprise integration frameworks handle credentials and business data flowing between systems; enforce least-privilege connector permissions, secret rotation, and audit logging for all integration routes.
-- **Open-source integration frameworks have different trade-offs from commercial platforms.** **Apache Camel provides the widest connectivity and pattern coverage** but requires you to run, operate, and support it yourself—no bundled API management, hosting, or vendor SLA [citation:3]. **Spring Integration is a library, not a platform**—best when you're already all-in on Spring Boot [citation:6]. **WSO2 Integrator offers a visual designer and optional support** but carries JVM overhead (~1 GB memory per container) and API management is a separate product . **Cameleer is dramatically lighter** (7 MB, 2.5 ms) but has fewer components and a smaller community . **Commercial platforms (MuleSoft, Boomi, webMethods) provide vendor SLAs and bundled tooling**, but pricing is quote-only and buyers report contracts from tens of thousands of dollars upward [citation:3]. **A hybrid approach is common**: commercial platforms for mission-critical, high-volume, audited flows; open-source for departmental, development, and cloud-native workloads [citation:14]. Validate component coverage, operational capacity, and support requirements before committing.
+| 📦 Repository | ⭐ Star Badge | 📝 Description & Architectural Fit |
+|:---|:---|:---|
+| **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **Fair-code workflow automation platform with visual node-based execution.** Built with TypeScript/Node.js. Supports 400+ native connectors, webhook handling, custom JavaScript/Python execution, and deep AI Agent / LangChain integrations. Ideal for self-hosted enterprise orchestration. |
+| **[Apache Kafka](https://github.com/apache/kafka)** | [![Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | **Distributed event streaming platform & Kafka Connect framework.** The backbone of real-time enterprise architectures. Connect framework standardizes fault-tolerant data ingestion between Kafka clusters, legacy databases (via Debezium CDC), and SaaS APIs. |
+| **[Kestra](https://github.com/kestra-io/kestra)** | [![Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | **Declarative, event-driven orchestrator and integration engine.** Apache-2.0. Enables teams to define microservices pipelines, API flows, and data transformations via clean YAML. Features real-time UI execution tracing, embedded secret management, and distributed worker architecture. |
+| **[Dapr](https://github.com/dapr/dapr)** | [![Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers) | **Distributed Application Runtime (Cloud Native Computing Foundation).** Provides event-driven, polyglot sidecar building blocks for microservice integration—including standardized Pub/Sub, state stores, service-to-service invocation with mTLS, bindings, and actors. |
+| **[Activepieces](https://github.com/activepieces/activepieces)** | [![Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | **Open-source no-code business automation and iPaaS alternative.** MIT licensed, TypeScript/Node.js. Offers a modern visual builder, enterprise SSO, fine-grained access control, and an open piece/connector ecosystem for internal tooling and SaaS integration. |
+| **[Temporal](https://github.com/temporalio/temporal)** | [![Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | **Durable execution platform for mission-critical enterprise workflows.** Mitigates failure scenarios in complex multi-step distributed integrations through code-based state preservation, automatic retries, saga rollbacks, and distributed timers in Go, Java, TypeScript, and Python. |
+| **[Node-RED](https://github.com/node-red/node-red)** | [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | **Low-code event-driven programming for wiring together hardware, APIs, and online services.** OpenJS Foundation. Widely adopted across IoT edge gateways, industrial SCADA systems, and rapid API prototyping with a lightweight browser-based flow editor. |
+| **[Airbyte](https://github.com/airbytehq/airbyte)** | [![Stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers) | **Leading open-source ELT data integration engine.** Unifies 300+ pre-built connectors for moving structured data from SaaS applications, files, and transaction databases into cloud data warehouses, vector stores, and enterprise storage targets. |
+| **[Apache Camel](https://github.com/apache/camel)** | [![Stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers) | **The definitive open-source reference implementation of Enterprise Integration Patterns (EIP).** Apache-2.0, Java/JVM. Boasts **~300 components** covering messaging (Kafka, JMS, AMQP), enterprise databases, cloud providers, and SaaS apps. Routes in Java, YAML, or XML DSL; visual editor via Kaoto. Runs standalone, on Quarkus/Spring Boot, or as native GraalVM images. |
+| **[Apache NiFi](https://github.com/apache/nifi)** | [![Stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers) | **Visual dataflow automation and real-time streaming ETL.** Apache-2.0, Java. Processor-based web interface for routing, converting, enriching, and mediating enterprise data across disparate networks. Best-in-class data provenance and end-to-end audit lineage tracking. |
+| **[Ballerina](https://github.com/ballerina-platform/ballerina-lang)** | [![Stars](https://img.shields.io/github/stars/ballerina-platform/ballerina-lang?style=social&color=white)](https://github.com/ballerina-platform/ballerina-lang/stargazers) | **Cloud-native programming language designed specifically for integration.** Apache-2.0. Treats network endpoints, JSON/XML schemas, and concurrency as first-class language constructs. Features bidirectional graphical sequence diagrams alongside clean source code. |
+| **[Spring Integration](https://github.com/spring-projects/spring-integration)** | [![Stars](https://img.shields.io/github/stars/spring-projects/spring-integration?style=social&color=white)](https://github.com/spring-projects/spring-integration/stargazers) | **Enterprise Integration Patterns natively embedded in the Spring Framework.** Apache-2.0, Java. Lightweight messaging framework extending Spring with EIP constructs—message channels, content-based routers, splitters, aggregators, and adapters. The top choice for Spring Boot microservice architectures. |
+| **[Frank!Framework](https://github.com/frankframework/frankframework)** | [![Stars](https://img.shields.io/github/stars/frankframework/frankframework?style=social&color=white)](https://github.com/frankframework/frankframework/stargazers) | **Stateless Java integration framework for enterprise transactional exchange.** Apache-2.0. Offers a declarative XML/Java approach to bridge banking, government, and enterprise legacy systems with built-in Ladybug test/trace instrumentation. |
+| **[Kaoto](https://github.com/KaotoIO/kaoto)** | [![Stars](https://img.shields.io/github/stars/KaotoIO/kaoto?style=social&color=white)](https://github.com/KaotoIO/kaoto/stargazers) | **Visual low-code canvas editor for Apache Camel integration routes.** Apache-2.0. Visualizes and modifies Camel YAML DSL definitions in real time inside VS Code and web environments, uniting code-first developers and low-code architects. |
+| **[WSO2 Micro Integrator](https://github.com/wso2/micro-integrator)** | [![Stars](https://img.shields.io/github/stars/wso2/micro-integrator?style=social&color=white)](https://github.com/wso2/micro-integrator/stargazers) | **Lightweight, container-native integration runtime built for cloud & Kubernetes.** Apache-2.0. Optimized Synapse-based engine for high-throughput enterprise service bus (ESB) mediation, protocol transformations (HTTP/JMS/FTP/Kafka), and graphical VS Code tooling. |
+| **[Cameleer](https://github.com/pmsudhi/cameleer)** | [![Stars](https://img.shields.io/github/stars/pmsudhi/cameleer?style=social&color=white)](https://github.com/pmsudhi/cameleer/stargazers) | **Ultra-lightweight native Rust runtime for Apache Camel routes.** Apache-2.0. Executes Camel YAML/XML DSLs with **2.5 ms startup and ~7 MB peak memory**. Includes a native Model Context Protocol (MCP) server for safe, audit-logged AI agent tool execution. |
 
 ---
 
-**Made for integration engineers, platform architects, and organizations building enterprise connectivity.**  
-Let's make enterprise application integration more open, pattern-driven, and cost-predictable.
+## 💡 Architectural Guidance & Decision Framework
+
+Selecting the right integration architecture depends on throughput, latency, governance, and organizational skills:
+
+- **Enterprise-Wide Standard (Java / Polyglot)**: Deploy **[Apache Camel](https://github.com/apache/camel)** or **[Spring Integration](https://github.com/spring-projects/spring-integration)** for maximum flexibility, deep EIP compliance, and no runtime license fees.
+- **Microservices & Cloud-Native Sidecars**: Leverage **[Dapr](https://github.com/dapr/dapr)** for standardized pub/sub and state handling across languages, or **[Temporal](https://github.com/temporalio/temporal)** for distributed sagas and stateful business processes.
+- **Event Streaming & CDC**: Build around **[Apache Kafka](https://github.com/apache/kafka)** with Kafka Connect for petabyte-scale messaging and transactional change data capture.
+- **Low-Code & Business Automation**: Choose **[n8n](https://github.com/n8n-io/n8n)** or **[Activepieces](https://github.com/activepieces/activepieces)** for rapid, visually designed workflow automation across hundreds of SaaS endpoints.
+- **Edge, Serverless & AI Agents**: Utilize **[Cameleer](https://github.com/pmsudhi/cameleer)** for sub-millisecond cold starts, low resource footprints, and native AI tool protocol integration.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Enterprise-Application-Integration-Framework&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Enterprise-Application-Integration-Framework&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! To suggest a new open-source runtime, iPaaS vendor, or architectural pattern:
+
+1. 🍴 **Fork** the repository.
+2. 🌿 Create a new branch: `git checkout -b feature/add-new-framework`.
+3. 📝 Add your entry into `README.md` maintaining proper table formatting, pricing transparency, and stargazers badge links.
+4. 🚀 Submit a **Pull Request** with a concise description of why the tool benefits the enterprise integration ecosystem.
+
+---
+
+## 💖 Support
+
+If you found this curated enterprise integration catalog helpful, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve visibility across the GitHub developer community!
+- 🍴 **Fork and share** with fellow software architects and integration engineers.
+- ☕ **Buy a coffee & sponsor** future open-source curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a community-curated educational index—not an endorsement of any commercial platform or open-source software project.
+- Always apply enterprise security best practices: configure least-privilege credentials, rotate API keys, encrypt data in transit and at rest, and maintain thorough audit trails across all production integration routes.
+- Pricing metrics, quotas, and licensing tiers reflect current publicly available data and are subject to change by respective vendors.
+
+---
+
+<div align="center">
+
+**Built with ❤️ for platform architects, integration specialists, and backend engineers.**
+
+</div>
