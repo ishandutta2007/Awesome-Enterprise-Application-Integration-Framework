@@ -70,9 +70,9 @@ The following commercial and hybrid platforms offer hosted execution engines, en
 
 Open-source frameworks allow engineering teams to avoid steep per-core or per-flow software licensing while gaining full control over their deployment topology, compliance boundaries, and data paths. 
 
-All repositories below include a live stargazers social badge and are **sorted in descending order by GitHub star count**:
+All repositories below include a live stargazers social badge and are **sorted in descending order by GitHub Stars_Count**:
 
-| 📦 Repository | ⭐ Star Badge | 📝 Description & Architectural Fit |
+| 📦 Repository | ⭐ Stars_Badge | 📝 Description & Architectural Fit |
 |:---|:---|:---|
 | **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **Fair-code workflow automation platform with visual node-based execution.** Built with TypeScript/Node.js. Supports 400+ native connectors, webhook handling, custom JavaScript/Python execution, and deep AI Agent / LangChain integrations. Ideal for self-hosted enterprise orchestration. |
 | **[Apache Kafka](https://github.com/apache/kafka)** | [![Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | **Distributed event streaming platform & Kafka Connect framework.** The backbone of real-time enterprise architectures. Connect framework standardizes fault-tolerant data ingestion between Kafka clusters, legacy databases (via Debezium CDC), and SaaS APIs. |
