@@ -1,6 +1,6 @@
 # Awesome-Enterprise-Application-Integration-Framework
 
-# Top Enterprise Application Integration Framework Ecosystem
+## Top Enterprise Application Integration Framework Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Enterprise Integration Patterns, Low-Code iPaaS & Self-Hosted Runtimes*  
